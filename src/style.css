@@ -71,9 +71,9 @@ body {
     padding: 20px;
   }
   
-  /* Fake image, just for this example */
-  .fakeimg {
-    background-color: #aaa;
+  /* image, just for this example */
+  .img {
+    background-color: rgb(172, 216, 200);
     width: 100%;
     padding: 20px;
   }
