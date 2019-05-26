@@ -31,17 +31,20 @@ body {
     font-weight: 300;
   }
   .header > p {
-    font-size: 100%;
+    font-size: 90%;
     text-align: center;
-    color: #bc44b0;
+    /* color: #bc44b0; */
+    color: #f30067;
+    
   }
   .header > h1 {
     
     font-weight: 400;
-    font-size: 190%;
+    font-size: 200%;
     text-align: center;
     font-style: normal;
     color: #ffffff;
+    line-height: 0.1;
   }
   
   /* Style the top navigation bar */
@@ -103,7 +106,7 @@ body {
   
   .img-about {
     background-image: "./assets/circlecvphoto.jpg" ;
-    display: block;
+    
     box-sizing: border-box;
     height: 18%; 
     width: 63%;
