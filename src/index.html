@@ -31,9 +31,9 @@
   
   <!-- NAVIGATION BAR -->
   <section class="navbar">
-    <a href="#"> ACERCA DE MI</a>
-    <a href="#"> PROYECTOS</a>
-    <a href="#"> SKILLS</a>
+    <a href="#" id="aboutnav" onclick="myAbout()"> ACERCA DE MI</a>
+    <a href="#" id="projectnav" onclick="myProjects()"> PROYECTOS</a>
+    <a href="#" id="skillsnav" onclick="mySkills()"> SKILLS</a>
     
     
   </section>
@@ -42,7 +42,7 @@
   <!-- FLEXIBLE GRID CONTAINER (content) -->
   <section class="row">
     <!-- SIDE -->
-    <section class="side">
+    <section id="side" class="side">
       <!-- ACERCA DE MI SIDE -->
       <!-- <div class="img-about" ></div> -->
       <img src="./assets/circlecvphoto.jpg" class="img-about" alt="Smiley face" >
@@ -116,13 +116,15 @@
     <section class="main">
 
 <!-- ACERCA DE MI MAIN -->
-<section id=aboutme-main>
-    <h1></h1>
+<section  id=aboutme-main  class="hidden">
+    <section class="img" style="height:350px;">
+        <h1></h1>
+    </section>
 
 </section>
 
       <!-- SECTION PROYECTOS -->
-            <section class="project" id=project>
+            <section  id=project  class="hidden">
             
             
             <!-- SLIDESHOW CONTAINER -->
@@ -172,7 +174,7 @@
   <i class="fas fa-angle-down"></i>
 
     <!-- <section class="img" style="height:200px;"></section> -->
-    </section>
+    
     <i class="fas fa-angle-down"></i>
 
 
@@ -231,10 +233,10 @@
 
 
 
-
-    <hr>
+  </section>
+    
     <!-- SKILLS -->
-    <section id=skills>
+    <section id=skills class="hidden">
 
 <!-- <p>TECH SKILLS</p> -->
         <section class="img" style="height:450px;">
