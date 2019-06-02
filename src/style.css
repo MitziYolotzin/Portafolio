@@ -126,12 +126,44 @@ body {
   
   /* image, just for this example */
   .img {
-    background-color: #ebebeb;
+    background-color: #ffffff;
     max-width: 100%;
     padding: 20px;
     
   }
   
+  .img-aboutme-info {
+    background-color: #ffffff;
+    max-width: 100%;
+    padding: 20px;
+    height: 750px;
+    
+  }
+
+  .img-cipher {
+    background-color: #ffffff;
+    max-width: 100%;
+    padding: 20px;
+    height: 425px;
+    
+  }
+
+  .img-datalover {
+    background-color: #ffffff;
+    max-width: 100%;
+    padding: 20px;
+    height: 430px;
+    
+  }
+
+  .img-mdlinks {
+    background-color: #ffffff;
+    max-width: 100%;
+    padding: 20px;
+    height: 390px;
+    
+  }
+
   .img-about {
     background-image: "./assets/circlecvphoto.jpg" ;
     position: static;
@@ -269,11 +301,52 @@ body {
     .row, .navbar {   
       flex-direction: column;
     }
+    
+    .img-cipher {
+     
+      height: 522px;
+      
+    }
+  
+    .img-datalover {
+     
+      height: 595px;
+      
+    }
+  
+    .img-mdlinks {
+      
+      height: 490px;
+      
+    }
+
+
   }
   @media screen and (max-width: 360px) {
     .row, .navbar {   
       flex-direction: column;
     }
+
+    .img-cipher {
+     
+      height: 522px;
+      
+    }
+  
+    .img-datalover {
+     
+      height: 595px;
+      
+    }
+  
+    .img-mdlinks {
+      
+      height: 490px;
+      
+    }
+
+
+
   }
 
   
@@ -326,7 +399,7 @@ body {
   } */
 
 
-
+ 
 
 
 
