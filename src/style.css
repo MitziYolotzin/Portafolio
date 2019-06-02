@@ -136,7 +136,7 @@ body {
     background-color: #ffffff;
     max-width: 100%;
     padding: 20px;
-    height: 750px;
+    height: 850px;
     
   }
 
@@ -160,7 +160,7 @@ body {
     background-color: #ffffff;
     max-width: 100%;
     padding: 20px;
-    height: 390px;
+    height: 400px;
     
   }
 
@@ -304,13 +304,16 @@ body {
     
     .img-cipher {
      
-      height: 522px;
+      height: 520px;
+      margin-bottom: -57px;
+      margin-top: -32px;
       
     }
   
     .img-datalover {
      
       height: 595px;
+      margin-bottom: -86px;
       
     }
   
@@ -318,6 +321,28 @@ body {
       
       height: 490px;
       
+    }
+
+    .side {
+      margin-bottom: -93px; 
+           
+    }
+
+    .img-aboutme-info {
+      
+      padding: 1px;
+            
+    }
+
+    .main {
+      
+      padding: 1px;
+            
+    }
+
+    .skills {
+      margin-top: -22px; 
+           
     }
 
 
@@ -329,13 +354,16 @@ body {
 
     .img-cipher {
      
-      height: 522px;
+      height: 520px;
+      margin-bottom: -57px;
+      margin-top: -32px;
       
     }
   
     .img-datalover {
      
       height: 595px;
+      margin-bottom: -86px;
       
     }
   
@@ -345,6 +373,26 @@ body {
       
     }
 
+    .side {
+      margin-bottom: -93px; 
+           
+    }
+
+    .img-aboutme-info {
+      
+      padding: 1px;
+            
+    }
+    .main {
+      
+      padding: 1px;
+            
+    }
+
+    .skills {
+      margin-top: -22px; 
+           
+    }
 
 
   }
