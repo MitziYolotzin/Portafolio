@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap');
 
+
+
 #info {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -98,6 +100,7 @@ body {
 
   .links:hover {
     font-weight: 700;
+    text-decoration: underline;
     
   }
 
@@ -108,8 +111,9 @@ body {
   }
 
   .links-project:hover {
-    font-weight: 500;
-    color: #000000;
+    font-weight: 700;
+    color: #ff006c;
+    text-decoration: underline;
   }
 
   

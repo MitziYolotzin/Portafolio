@@ -18,9 +18,9 @@
               </figure> -->
                    
             <!-- Note -->
-<section style="background:#000000; padding:5px">
+<!-- <section style="background:#000000; padding:5px">
     <h4 style="text-align:center"></h4>
-</section>
+</section> -->
   
   <!-- HEADER -->
   <section class="header">
@@ -31,9 +31,10 @@
   
   <!-- NAVIGATION BAR -->
   <section class="navbar">
-    <a href="#"> ACERCA DE MI</a>
-    <a href="#"> PROYECTOS</a>
-    <a href="#"> SKILLS</a>
+    <a href="#" id="aboutnav" onclick="myHome()">INICIO</a>
+    <a href="#" id="aboutnav" onclick="myAbout()"> ACERCA DE MI</a>
+    <a href="#" id="projectnav" onclick="myProjects()"> PROYECTOS</a>
+    <a href="#" id="skillsnav" onclick="mySkills()"> SKILLS</a>
     
     
   </section>
@@ -42,53 +43,20 @@
   <!-- FLEXIBLE GRID CONTAINER (content) -->
   <section class="row">
     <!-- SIDE -->
-    <section class="side">
+    <section id="side" class="side">
       <!-- ACERCA DE MI SIDE -->
       <!-- <div class="img-about" ></div> -->
       <img src="./assets/circlecvphoto.jpg" class="img-about" alt="Smiley face" >
       <br></br>
       <i class="fas fa-code" ></i>
       <h1 class="title-frontabout">Front End Developer Jr.</h1>
-  <p> Formación en Laboratoria.</p> 
-      <p class="about">
-        Curiosa y apasionada de las nuevas tecnologías.
-        Creativa, amante del arte y la creación audiovisual experimental.
-        Me encanta aprender, investigar, descubrir y enfrentarme a retos.
-        Por medio del desarrollo en tecnología y programación me gustaría poder colaborar en proyectos de startups, arte, ciencia y salud.
-      </p>
-      <i class="fas fa-angle-down"></i>
+  <p> Egresada de Laboratoria.</p> 
+      
+      
       <!-- <i class="fas fa-arrow-circle-down"></i> -->
       <br>
-      <hr>
-        <h3></h3>
-      <i class="fas fa-file"></i> 
-      <p><a href="https://drive.google.com/open?id=1ufqnbLoNJ254Nr0LEeGMfB7Z7vAI5EvF" class="links"  target="_blank">CV</a></p>
-      
-      <!-- CONTACTO -->
-    <section id=contact>
-      
-      <i class="fab fa-github"></i>
-      <p><a href="https://github.com/MitziYolotzin" class="links"  target="_blank">Github</a></p>
-
-      <i class="fab fa-linkedin-in"></i>
-      <p><a href="https://www.linkedin.com/in/mitziolvera" class="links"  target="_blank">LinkedIn</a></p>
-      <i class="fas fa-angle-down"></i>
-      <hr>
-      <h3>Arte y código</h3>
-      <i class="fas fa-laptop-code"></i>        
-      <p><a href="https://cositasvisuales.tumblr.com/" class="links"  target="_blank">Arte Generativo - Live Coding</a></p>   
-      <i class="fas fa-angle-down"></i>
-        <hr>
-        <h3>Contacto</h3>
-        <i class="fas fa-at"></i>
-        <p><a href="mailto:mitziulter@gmail.com" class="links"  target="_blank">mitziulter@gmail.com</a></p>
+     
         
-        <i class="fas fa-mobile-alt"></i>
-        <p style="color:rgb(255, 0, 108);">044 55 2220 0283</p>
-        <i class="fas fa-angle-down"></i>
-        
-      </section>
-
       <!-- INTERESES -->
           <section id=intereses>
                  
@@ -99,9 +67,7 @@
         <i class="fas fa-circle"></i>
         <i class="far fa-circle"></i> -->
         <!-- <section class="img" style="height:60px;"></section><br> -->
-      
-        <hr>
-        <br>
+       
         <i class="fas fa-code" ></i>
         <p><a href="https://www.laboratoria.la " class="links"  target="_blank">Laboratoria</a></p>
 
@@ -113,16 +79,61 @@
 
 
     <!-- CENTRAL MAIN -->
-    <section class="main">
+    <section class="main" id="main">
 
 <!-- ACERCA DE MI MAIN -->
-<section id=aboutme-main>
-    <h1></h1>
+<section  id=aboutme-main  >
+    <section class="img" style="height:900px;">
+        <h3>Mitzi Olvera</h3> 
+      <p class="about">
+        Curiosa y apasionada de las nuevas tecnologías.
+        Creativa, amante del arte y la creación audiovisual experimental.
+        Me encanta aprender, investigar, descubrir y enfrentarme a retos.
+        Por medio del desarrollo en tecnología y programación me gustaría poder colaborar en proyectos de startups, arte, ciencia y salud.
+      </p>
+
+      <i class="fas fa-angle-down"></i>
+      <!-- <i class="fas fa-arrow-circle-down"></i> -->
+      <hr>
+      
+      <h3>CV & Redes</h3>
+      <i class="fas fa-file"></i> 
+      <p><a href="https://drive.google.com/file/d/1glGtbFz-IGAvArN68saCmINDuPQ6vF40/view?usp=sharing" class="links"  target="_blank">CV</a></p>
+      
+      <!-- CONTACTO -->
+    <section id=contact>
+      
+      <i class="fab fa-github"></i>
+      <p><a href="https://github.com/MitziYolotzin" class="links"  target="_blank">Github</a></p>
+
+      <i class="fab fa-linkedin-in"></i>
+      <p><a href="https://www.linkedin.com/in/mitziolvera" class="links"  target="_blank">LinkedIn</a></p>
+      <i class="fas fa-angle-down"></i>
+      <hr>
+      <h3>Arte & código</h3>
+      <i class="fas fa-laptop-code"></i>        
+      <p><a href="https://cositasvisuales.tumblr.com/" class="links"  target="_blank">Arte Generativo - Live Coding</a></p>   
+      <i class="fas fa-angle-down"></i>
+        <hr>
+        <h3>Contacto</h3>
+        <i class="fas fa-at"></i>
+        <p><a href="mailto:mitziulter@gmail.com" class="links"  target="_blank">mitziulter@gmail.com</a></p>
+        
+        <i class="fas fa-mobile-alt"></i>
+        <p style="color:rgb(255, 0, 108);" >044 55 2220 0283</p>
+        <i class="fas fa-angle-up"></i>
+        
+        
+      </section>
+
+    </section>
 
 </section>
+<br>
+
 
       <!-- SECTION PROYECTOS -->
-            <section class="project" id=project>
+            <section  id=project  >
             
             
             <!-- SLIDESHOW CONTAINER -->
@@ -168,117 +179,137 @@
     <span class="dot" onclick="currentSlide(2)"></span> 
     <span class="dot" onclick="currentSlide(3)"></span> 
   </div>
-<br>
+
   <i class="fas fa-angle-down"></i>
-
+  
     <!-- <section class="img" style="height:200px;"></section> -->
-    </section>
-    <i class="fas fa-angle-down"></i>
-
-
     
+   
+
     
     <!-- CIPHER PROJECT -->
-    <section class="img" style="height:350px;">
+    <section class="img" style="height:425px;">
      
 <h2>Proyecto CIPHER</h2>
 <p>Secret Space Mission</p>
+
+<p class="descrip">
+    Secret Space Mission es un generador de claves secretas que pueden ser cifradas o descifradas, funciona por medio del método cifrado César.
+  </p>
 <i class="fas fa-laptop" style="color: rgb(97, 97, 97)"></i>
     <p><a href="https://mitziyolotzin.github.io/cdmx-2019-01-bc-core-am-cipher/src/" class="links-project" target="_blank">DEMO CIPHER Web App</a></p>
     <i class="fab fa-github" style="color: rgb(97, 97, 97)"></i>
     <p><a href="https://github.com/MitziYolotzin/cdmx-2019-01-bc-core-am-cipher" class="links-project" target="_blank">Github CIPHER</a></p>
-    
+    <br>
+           
     <i class="devicon-javascript-plain" style="color: rgb(97, 97, 97)"></i>
     <i class="devicon-html5-plain" style="color: rgb(97, 97, 97)"></i>
     <i class="devicon-css3-plain" style="color: rgb(97, 97, 97)"></i>
     <i class="devicon-visualstudio-plain" style="color: rgb(97, 97, 97)"></i>
     <p style="color:rgb(243, 0, 103);">Web Development Tools</p>
+    <i class="fas fa-angle-down"></i>
     
 </section>
 
 <br>
-<section class="img" style="height:350px;">
-    <h2>Proyecto DATA LOVER</h2>
+<section class="img" style="height:430px;">
+    <h2>Proyecto DATA LOVERS</h2>
     <p>Pokemón Encyclopedia</p>
+    <p class="descrip">
+        Pokémon Encyclopedia nos proporciona información básica, conocer que pokemones existen y clasificarlos por su tipo, así como verlos ordenados dependiendo de algunos criterios que el usuario seleccione.
+      </p>
     <i class="fas fa-laptop" style="color: rgb(97, 97, 97)"></i>
         <p><a href="https://mitziyolotzin.github.io/cdmx-2019-01-bc-core-data-lovers/src/" class="links-project" target="_blank">DEMO Pokemón Web App</a></p>
         <i class="fab fa-github" style="color: rgb(97, 97, 97)"></i>
         <p><a href="https://github.com/MitziYolotzin/cdmx-2019-01-bc-core-data-lovers" class="links-project" target="_blank">Github Pokemón</a></p>
-        
+        <br>
         <i class="devicon-javascript-plain" style="color: rgb(97, 97, 97)"></i>
         <i class="devicon-html5-plain" style="color: rgb(97, 97, 97)"></i>
         <i class="devicon-css3-plain" style="color: rgb(97, 97, 97)"></i>
         <i class="devicon-visualstudio-plain" style="color: rgb(97, 97, 97)"></i>
         <p style="color:rgb(243, 0, 103);">Web Development Tools</p>
+        <i class="fas fa-angle-down"></i>
         
     </section>
 
     <br>
-<section class="img" style="height:350px;">
+<section class="img" style="height: 390px;">
     <h2>Proyecto MD LINKS</h2>
-    
+    <p class="descrip">
+        Herramienta y librería creada usando Node.js, que lee y analiza archivos en formato Markdown, para verificar los links que contengan y reportar algunas estadísticas.
+      </p>
     <i class="fas fa-laptop" style="color: rgb(97, 97, 97)"></i>
         <p><a href="https://www.npmjs.com/package/@drosophyllum/mdlinks" class="links-project" target="_blank">DEMO Package NPM</a></p>
         <i class="fab fa-github" style="color: rgb(97, 97, 97)"></i>
         <p><a href="https://github.com/MitziYolotzin/CDMX007-fe-md-links" class="links-project" target="_blank">Github MD LINKS</a></p>
-        
+        <br>
         <i class="devicon-javascript-plain" style="color: rgb(97, 97, 97)"></i>
         <i class="devicon-nodejs-plain" style="color: rgb(97, 97, 97)"></i>
         <i class="devicon-visualstudio-plain" style="color: rgb(97, 97, 97)"></i>
         <p style="color:rgb(243, 0, 103);">Web Development Tools</p>
-        
+        <i class="fas fa-angle-up"></i>
     </section>
 
 
 
-
-    <hr>
+  </section>
+    
+    
     <!-- SKILLS -->
-    <section id=skills>
+    <section id=skills >
 
 <!-- <p>TECH SKILLS</p> -->
-        <section class="img" style="height:450px;">
+        <section class="img" style="height: 750px;">
             <h2>TECH SKILLS</h2>
 
             
             <i class="devicon-javascript-plain"></i>
+            <p style="color:rgb(243, 0, 103);">JAVASCRIPT</p>
             <i class="devicon-html5-plain"></i>
+            <p style="color:rgb(243, 0, 103);">HTML 5</p>
             <i class="devicon-css3-plain"></i>
+            <p style="color:rgb(243, 0, 103);">CSS 3</p>
             <i class="devicon-visualstudio-plain"></i>
+            <p style="color:rgb(243, 0, 103);">VS CODE</p>
             
             <i class="devicon-git-plain"></i>
             <i class="devicon-github-plain"></i>
+            <p style="color:rgb(243, 0, 103);">GIT & GITHUB</p>
             
             <i class="devicon-react-original"></i>
+            <p style="color:rgb(243, 0, 103);">REACT JS</p>
             <i class="devicon-nodejs-plain"></i>
+            <p style="color:rgb(243, 0, 103);">NODE JS</p>
             
-            <i class="devicon-visualstudio-plain"></i>
-            <i class="devicon-slack-plain"></i>
+            <i class="fab fa-slack"></i>
+            <p style="color:rgb(243, 0, 103);">SLACK</p>
             <i class="devicon-trello-plain"></i>
+            <p style="color:rgb(243, 0, 103);">TRELLO</p>
 
-            <p style="color:rgb(53, 53, 53);">JAVASCRIPT</p>
-                <p style="color:rgb(53, 53, 53);">HTML 5</p>
-                <p style="color:rgb(53, 53, 53);">CSS 3</p>
-                <p style="color:rgb(53, 53, 53);">VS CODE</p>
-                <p style="color:rgb(53, 53, 53);">GIT & GITHUB</p>
-                <p style="color:rgb(53, 53, 53);">REACT JS</p>
-                <p style="color:rgb(53, 53, 53);">NODE JS</p>
-                <p style="color:rgb(53, 53, 53);">SLACK</p>
-                <p style="color:rgb(53, 53, 53);">TRELLO</p>
+                <i class="fas fa-angle-down"></i>
                    
                 
             </section>
 <!-- <p>SOFT SKILLS</p> -->
 <br>
-            <section class="img" style="height:350px;">
+            <section class="img" style="height: 550px;">
                 <h2>SOFT SKILLS</h2>
-                <p style="color:rgb(53, 53, 53);">Trabajo en equipo</p>
-                <p style="color:rgb(53, 53, 53);">Metodología Agile</p>
-                <p style="color:rgb(53, 53, 53);">Autoaprendizaje</p>
-                <p style="color:rgb(53, 53, 53);">Creatividad</p>
-                <p style="color:rgb(53, 53, 53);">Habilidades investigativas</p>
+
+                <i class="fas fa-users"></i>
+                <p style="color:rgb(243, 0, 103);">Trabajo en equipo</p>
+                <i class="fas fa-users-cog"></i>
+                <p style="color:rgb(243, 0, 103);">Metodología Agile</p>
+                <i class="fas fa-brain"></i>
+                <p style="color:rgb(243, 0, 103);">Growth Mindset</p>
+                <i class="fas fa-user-ninja"></i>
+                <!-- <i class="fas fa-user-astronaut"></i> -->
+                <p style="color:rgb(243, 0, 103);">Autoaprendizaje</p>
+                <i class="fas fa-rocket"></i>
+                <p style="color:rgb(243, 0, 103);">Creatividad</p>
+                <i class="fas fa-sitemap"></i>
+                <p style="color:rgb(243, 0, 103);">Habilidades investigativas</p>
                 
-                
+                <i class="fas fa-angle-up"></i>
                        
                     
                 </section>
