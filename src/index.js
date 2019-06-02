@@ -35,14 +35,35 @@ function showSlides(n) {
 
   
  
+function myHome() {
+  let project = document.getElementById('project');
+  let about = document.getElementById('aboutme-main');
+  let skills = document.getElementById('skills');
+  let side = document.getElementById('side');
+  let main = document.getElementById('main');
+  
+  
+  if (about.style.display === 'block' && side.style.display === 'block') {
+    side.style.display = 'block'
+    //main.style.display = 'none';
+    about.style.display = 'none';
+    project.style.display = 'none';
+    skills.style.display = 'none';
 
+  } else {
+    side.style.display = 'block'
+    main.style.display = 'block';
+    project.style.display = 'none';
+    skills.style.display = 'none';
+  }
+}
 
 //
 function myAbout() {
-  var project = document.getElementById('project');
-  var about = document.getElementById('aboutme-main');
-  var skills = document.getElementById('skills');
-  var side = document.getElementById('side');
+  let project = document.getElementById('project');
+  let about = document.getElementById('aboutme-main');
+  let skills = document.getElementById('skills');
+  let side = document.getElementById('side');
   
   
   if (about.style.display === 'block' && side.style.display === 'block') {
@@ -59,10 +80,10 @@ function myAbout() {
 
 //
 function myProjects() {
-  var project = document.getElementById('project');
-  var about = document.getElementById('aboutme-main');
-  var skills = document.getElementById('skills');
-  var side = document.getElementById('side');
+  let project = document.getElementById('project');
+  let about = document.getElementById('aboutme-main');
+  let skills = document.getElementById('skills');
+  let side = document.getElementById('side');
   if (project.style.display === 'block') {
     
     about.style.display = 'none';
@@ -78,10 +99,10 @@ function myProjects() {
 
 //
 function mySkills() {
-  var project = document.getElementById('project');
-  var about = document.getElementById('aboutme-main');
-  var skills = document.getElementById('skills');
-  var side = document.getElementById('side');
+  let project = document.getElementById('project');
+  let about = document.getElementById('aboutme-main');
+  let skills = document.getElementById('skills');
+  let side = document.getElementById('side');
   if (skills.style.display === 'block') {
     
     about.style.display = 'none';
