@@ -78,7 +78,7 @@ function myAbout() {
   }
 }
 
-//
+//NAV
 function myProjects() {
   let project = document.getElementById('project');
   let about = document.getElementById('aboutme-main');
