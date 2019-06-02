@@ -35,28 +35,28 @@ function showSlides(n) {
 
   
  
-function myHome() {
-  let project = document.getElementById('project');
-  let about = document.getElementById('aboutme-main');
-  let skills = document.getElementById('skills');
-  let side = document.getElementById('side');
-  let main = document.getElementById('main');
+// function myHome() {
+//   let project = document.getElementById('project');
+//   let about = document.getElementById('aboutme-main');
+//   let skills = document.getElementById('skills');
+//   let side = document.getElementById('side');
+//   let main = document.getElementById('main');
   
   
-  if (about.style.display === 'block' && side.style.display === 'block') {
-    side.style.display = 'block'
-    //main.style.display = 'none';
-    about.style.display = 'none';
-    project.style.display = 'none';
-    skills.style.display = 'none';
+//   if (about.style.display === 'block' && side.style.display === 'block') {
+//     side.style.display = 'block'
+//     //main.style.display = 'none';
+//     about.style.display = 'none';
+//     project.style.display = 'none';
+//     skills.style.display = 'none';
 
-  } else {
-    side.style.display = 'block'
-    main.style.display = 'block';
-    project.style.display = 'none';
-    skills.style.display = 'none';
-  }
-}
+//   } else {
+//     side.style.display = 'block'
+//     main.style.display = 'block';
+//     project.style.display = 'none';
+//     skills.style.display = 'none';
+//   }
+// }
 
 //
 function myAbout() {
