@@ -2,395 +2,580 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Portafolio</title>
-  <link rel="stylesheet" href="style.css" />
-
-  <link rel="stylesheet"
-    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio - Mitzi Olvera</title>
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fixed.css">
+	<link rel="stylesheet"
+		href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 
-<body id=info>
-
-  <!-- <figure id="back">
-                <img id="back-title" src="./assets/imagen.png" alt="BACK">
-              </figure> -->
-
-  <!-- Note -->
-  <!-- <section style="background:#000000; padding:5px">
-    <h4 style="text-align:center"></h4>
-</section> -->
-
-  <!-- HEADER -->
-  <section class="header">
-    <h1>Mitzi Olvera</h1>
-    <p>Front End Developer</p>
-    <!-- <p>With a <b>flexible</b> layout.</p> -->
-  </section>
-
-  <!-- NAVIGATION BAR -->
-  <section class="navbar">
-    <!-- <a href="#" id="aboutnav" onclick="myHome()">INICIO</a>      <i class="fas fa-caret-down"></i>--> 
-    <a href="#" id="aboutnav" onclick="myAbout()"> ACERCA DE MI + CONTACTO </a>
-    <a href="#" id="projectnav" onclick="myProjects()"> PROYECTOS </a>
-    <a href="#" id="skillsnav" onclick="mySkills()"> SKILLS </a>
-
-
-  </section>
-
-
-  <!-- FLEXIBLE GRID CONTAINER (content) -->
-  <section class="row">
-    <!-- SIDE -->
-    <section id="side" class="side">
-      <!-- ACERCA DE MI SIDE -->
-      <!-- <div class="img-about" ></div> -->
-      <img src="./assets/circlecvphoto.jpg" class="img-about" alt="Smiley face">
-      <br></br>
-      <i class="fas fa-code"></i>
-      <h1 class="title-frontabout">Front End Developer</h1>
-      <h3>Mitzi Olvera</h3>
-      <p class="about">
-        Formación en Laboratoria. Curiosa y apasionada de las nuevas tecnologías.
-        Creativa, amante del arte y la creación audiovisual experimental.
-        Me encanta aprender, investigar, descubrir y enfrentarme a retos.
-        Por medio del desarrollo en tecnología me gustaría poder colaborar en proyectos de startups, arte, ciencia y
-        cultura.
-      </p>
-      <i id="icon-arrow-about" class="fas fa-angle-double-down fa-lg"></i>
-    </section>
-
-    <!-- <i class="fas fa-arrow-circle-down"></i> -->
-
-    <!-- INTERESES -->
-
-
-    <!-- <i class="fas fa-file-code"></i> 
-        <i class="far fa-user-circle"></i>
-        <i class="fas fa-smile"></i>
-        <i class="fas fa-terminal"></i> 
-        <i class="fas fa-circle"></i>
-        <i class="far fa-circle"></i> -->
-    <!-- <section class="img" style="height:60px;"></section><br> -->
-
-    <!-- <section class="img" style="height:60px;"></section><br>
-      <section class="img" style="height:60px;"></section> -->
-
-
-
-    <!-- CENTRAL MAIN -->
-    <section class="main" id="main">
-
-      <!-- ACERCA DE MI MAIN -->
-      <section id=aboutme-main>
-        <section class="img-aboutme-info">
-
-          <!-- <i class="fas fa-arrow-circle-down"></i> -->
-          <h3></h3>
-          <i class="fas fa-file fa-lg"></i>
-          <p><a href="https://drive.google.com/file/d/1cnPyHaXwMX9XRqVym77yMzXzq9uiwG5G/view?usp=sharing" class="links"
-              target="_blank">CV</a></p>
-
-          <!-- CONTACTO -->
-
-
-          <i class="fab fa-github fa-lg"></i>
-          <p><a href="https://github.com/MitziYolotzin" class="links" target="_blank">Github</a></p>
-
-          <i class="fab fa-linkedin-in fa-lg"></i>
-          <p><a href="https://www.linkedin.com/in/mitziolvera" class="links" target="_blank">LinkedIn</a></p>
-          <i class="fas fa-angle-down fa-lg"></i>
-
-          <h3>Arte & Código</h3>
-          <i class="fas fa-laptop-code fa-lg"></i>
-          <p><a href="https://visuellcodeart.tumblr.com/" class="links" target="_blank">Arte Generativo - Live
-              Coding</a></p>
-          <i class="fas fa-angle-down fa-lg"></i>
-
-
-          <h3>Contacto</h3>
-          <i class="fas fa-at fa-lg"></i>
-          <p><a href="mailto:mitziulter@gmail.com" class="links" target="_blank">mitziulter@gmail.com</a></p>
-
-          <i class="fas fa-mobile-alt fa-lg"></i>
-          <p style="color:rgb(255, 0, 108);">044 55 2220 0283</p>
-          <i class="fas fa-angle-down fa-lg"></i>
-
-          
-          <br>
-          <br></br>
-
-          <i class="fas fa-code fa-lg"></i>
-          <p>Acerca de <a href="https://www.laboratoria.la " class="links" target="_blank">Laboratoria</a></p>
-          
-
-
-
-
-
-
-
-        </section>
-
-      </section>
-      <br>
-
-
-      <!-- SECTION PROYECTOS -->
-      <section id=project>
-
-
-        <!-- SLIDESHOW CONTAINER -->
-        <div class="slideshow-container">
-
-          <!-- Full-width images with number and caption text -->
-
-          <!-- CIPHER PHOTO-->
-          <div class="container-slideleft">
-            <div class="mySlides fade">
-              <div class="numbertext">CIPHER</div>
-              <img src="./assets/cipher.jpg" style="width:100%" class="image-slideleft">
-
-            </div>
-
-          </div>
-
-
-          <div class="mySlides fade">
-            <div class="numbertext">DATA LOVERS</div>
-            <img src="./assets/datalovers.jpg" style="width:100%">
-
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">BURGER QUEEN</div>
-            <img src="./assets/burgerqueen.jpg" style="width:100%">
-
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">MD LINKS</div>
-            <img src="./assets/mdlinkst.jpg" style="width:100%">
-            <!-- <div class="text">MD LINKS</div> -->
-
-
-          </div>
-
-          <!-- Next and previous buttons -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-
-        <br>
-
-        <!-- The dots/circles -->
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-          <span class="dot" onclick="currentSlide(4)"></span>
-        </div>
-
-        
-
-        <!-- <section class="img" style="height:200px;"></section> -->
-
-
-
-
-        <!-- CIPHER PROJECT -->
-        <section class="img-cipher">
-
-          <h2>Proyecto Cipher</h2>
-          <p>Secret Space Mission</p>
-
-          <p class="descrip">
-            Generador de claves secretas que pueden ser cifradas o descifradas, funciona por medio del método cifrado
-            César.
-          </p>
-          <i class="fas fa-laptop fa-lg" style="color: rgb(97, 97, 97)"></i>
-          <p><a href="https://mitziyolotzin.github.io/cdmx-2019-01-bc-core-am-cipher/src/" class="links-project"
-              target="_blank">DEMO CIPHER Web App</a></p>
-          <i class="fab fa-github fa-lg" style="color: rgb(97, 97, 97)"></i>
-          <p><a href="https://github.com/MitziYolotzin/cdmx-2019-01-bc-core-am-cipher" class="links-project"
-              target="_blank">Github CIPHER</a></p>
-          <br>
-
-          <i class="devicon-javascript-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
-          <i class="devicon-html5-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
-          <i class="devicon-css3-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
-          <i class="devicon-visualstudio-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
-          <p style="color:rgb(75, 74, 74);">Development Tools</p>
-          <i class="fas fa-angle-down fa-lg"></i>
-
-        </section>
-
-        <section class="img-datalover">
-          <h2>Proyecto Data Lovers</h2>
-          <p>Pokemón Encyclopedia</p>
-          <p class="descrip">
-            Proyecto colaborativo. Nos permite visualizar data de Pokemón, consultar información básica, conocer que
-            pokemones existen y clasificarlos por su tipo. Así como verlos ordenados dependiendo de algunos criterios
-            que el usuario seleccione.
-          </p>
-          <i class="fas fa-laptop fa-lg" style="color: rgb(97, 97, 97)"></i>
-          <p><a href="https://mitziyolotzin.github.io/cdmx-2019-01-bc-core-data-lovers/src/" class="links-project"
-              target="_blank">DEMO Pokemón Responsive Web App</a></p>
-          <i class="fab fa-github fa-lg" style="color: rgb(97, 97, 97)"></i>
-          <p><a href="https://github.com/MitziYolotzin/cdmx-2019-01-bc-core-data-lovers" class="links-project"
-              target="_blank">Github Pokemón</a></p>
-          <br>
-          <i class="devicon-javascript-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
-          <i class="devicon-html5-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
-          <i class="devicon-css3-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
-          <i class="devicon-visualstudio-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
-          <p style="color:rgb(75, 74, 74);">Development Tools</p>
-          <i class="fas fa-angle-down fa-lg"></i>
-
-        </section>
-
-
-        <section class="img-burgerqueen">
-          <h2>Proyecto Burger Queen</h2>
-          <p></p>
-          <p class="descrip">
-            Proyecto en colaboración con UX Designer Brenda Vázquez. Desarrollado con la librería React, implementando
-            React Hooks. Tablet App para mejorar la toma de pedidos en un restaurante de comida rápida.
-          </p>
-          <i class="fas fa-laptop fa-lg" style="color: rgb(97, 97, 97)"></i>
-          <p><a href="https://burger-queen-1b241.firebaseapp.com/Breakfast" class="links-project" target="_blank">DEMO
-              Tablet App</a></p>
-          <i class="fab fa-github fa-lg" style="color: rgb(97, 97, 97)"></i>
-          <p><a href="https://github.com/MitziYolotzin/CDMX007-fe-burger-queen" class="links-project"
-              target="_blank">Github Burger Queen</a></p>
-          <br>
-          <i class="devicon-react-original fa-lg" style="color: rgb(75, 74, 74)"></i>
-          <i class="devicon-javascript-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
-          <i class="devicon-html5-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
-          <i class="devicon-css3-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
-          <i class="devicon-visualstudio-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
-          <p style="color:rgb(75, 74, 74);">Development Tools</p>
-          <i class="fas fa-angle-down fa-lg"></i>
-
-        </section>
-
-
-        <section class="img-mdlinks">
-          <h2>Proyecto MD Links</h2>
-          <p class="descrip">
-            Herramienta y librería creada usando Node.js, que lee y analiza archivos en formato Markdown, para verificar
-            los links que contengan y reportar algunas estadísticas.
-          </p>
-          <i class="fas fa-laptop fa-lg" style="color: rgb(97, 97, 97)"></i>
-          <p><a href="https://www.npmjs.com/package/@drosophyllum/mdlinks" class="links-project" target="_blank">DEMO
-              Package NPM</a></p>
-          <i class="fab fa-github fa-lg" style="color: rgb(97, 97, 97)"></i>
-          <p><a href="https://github.com/MitziYolotzin/CDMX007-fe-md-links" class="links-project" target="_blank">Github
-              MD LINKS</a></p>
-          <br>
-          <i class="devicon-javascript-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
-          <i class="devicon-nodejs-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
-          <i class="devicon-visualstudio-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
-          <p style="color:rgb(75, 74, 74);">Development Tools</p>
-          <!-- <i class="fas fa-angle-up fa-lg"></i> -->
-        </section>
-
-
-      </section>
-
-
-      <!-- SKILLS -->
-      <section id=skills class="skills">
-
-        <!-- <p>TECH SKILLS</p> -->
-        <section class="img" style="height: 1050px;">
-          <h2>TECH SKILLS</h2>
-
-
-          <i class="devicon-html5-plain fa-2x"></i>
-          <p style="color:rgb(243, 0, 103);">HTML5</p>
-          <i class="devicon-css3-plain fa-2x"></i>
-          <p style="color:rgb(243, 0, 103);">CSS3</p>
-          <i class="devicon-javascript-plain fa-2x"></i>
-          <p style="color:rgb(243, 0, 103);">JavaScript</p>
-          <i class="devicon-react-original fa-2x"></i>
-          <p style="color:rgb(243, 0, 103);">React JS</p>
-          <i class="devicon-nodejs-plain fa-2x"></i>
-          <p style="color:rgb(243, 0, 103);">Node JS</p>
-          
-          <i class="fas fa-server fa-2x"></i>
-          <p style="color:rgb(243, 0, 103);">Firebase, MongoDB, Postman</p>
-
-          <i class="devicon-git-plain fa-2x"></i>
-          <p style="color:rgb(243, 0, 103);">Git</p>
-          <i class="devicon-github-plain fa-2x"></i>
-          <p style="color:rgb(243, 0, 103);">Github</p>
-          <i class="devicon-visualstudio-plain fa-2x"></i>
-          <p style="color:rgb(243, 0, 103);">VS Code</p>
-          <i class="fab fa-slack fa-2x"></i>
-          <p style="color:rgb(243, 0, 103);">Slack</p>
-          <i class="devicon-trello-plain fa-2x"></i>
-          <p style="color:rgb(243, 0, 103);">Trello</p>
-
-          <i class="fas fa-angle-down fa-lg"></i>
-
-
-        </section>
-        <!-- <p>SOFT SKILLS</p> -->
-        <br>
-        <section class="img" style="height: 750px;">
-          <h2>SOFT SKILLS</h2>
-
-          <i class="fas fa-users fa-2x"></i>
-          <p style="color:rgb(243, 0, 103);">Trabajo en equipo</p>
-          <!-- <i class="fas fa-users-cog"></i> -->
-          <!-- <i class="fas fa-user-cog"></i> -->
-          <!-- <i class="fas fa-infinity"></i> -->
-          <i class="far fa-calendar-check fa-2x"></i>
-          <p style="color:rgb(243, 0, 103);">Scrum</p>
-          <i class="far fa-calendar-check fa-2x"></i>
-          <p style="color:rgb(243, 0, 103);">Metodología Agile</p>
-          <i class="fas fa-brain fa-2x"></i>
-          <p style="color:rgb(243, 0, 103);">Growth Mindset</p>
-          <i class="fas fa-user-ninja fa-2x"></i>
-          <!-- <i class="fas fa-user-astronaut"></i> -->
-          <p style="color:rgb(243, 0, 103);">Autoaprendizaje</p>
-          <i class="fas fa-rocket fa-2x"></i>
-          <p style="color:rgb(243, 0, 103);">Creatividad</p>
-          <i class="fas fa-sitemap fa-2x"></i>
-          <p style="color:rgb(243, 0, 103);">Habilidades investigativas</p>
-
-          
-
-
-        </section>
-
-
-      </section>
-
-
-
-
-    </section>
-
-
-  </section>
-
-  <!-- FOOTER -->
-  <section class="footer">
-    <h2></h2>
-
-  </section>
-
-
-
-
-  <script src=index.js></script>
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+	<!--- Start Section -->
+	<div id="home">
+
+
+		<!--- Navigation -->
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			<!-- <a class="navbar-brand" href="index.html"><img src="img/title.png"></a> -->
+			<button class="navbar-toggler" type="button" data-toggle="collpase" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#aboutme">Acerca de mí</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#portfolio">Portafolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#artcode">Arte y Código</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#skills">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+
+		</nav>
+
+		<!---  IMAGE SLIDER -->
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="7000">
+			<!-- <ol class="carousel-indicators">
+				<li data-target="carouselExampleIndicators" data-slider-to="0" class="active"></li>
+				<li data-target="carouselExampleIndicators" data-slider-to="1" class="active"></li>
+				<li data-target="carouselExampleIndicators" data-slider-to="2" class="active"></li>
+
+			</ol> -->
+			<div class="carousel-inner" role="listbox">
+
+				<div class="carousel-item active" style="background-image: url(img/computers.png);">
+					<div class="carousel-caption text-center">
+						<!-- <h1>Welcome To</h1>
+						<h3>animated</h3>
+						<a class="btn btn-outline-light btn-lg" href="#course">Start</a> -->
+					</div>
+				</div>
+				<!--SLIDE 2-->
+				<!-- <div class="carousel-item" style="background-image: url(img/computers-2.png);"></div>
+				<div class="carousel-item" style="background-image: url(img/computers-3.png);"></div> -->
+
+			</div>
+			<!--BUTTONS PREV NEXT-->
+			<!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			</a> -->
+
+		</div>
+
+
+
+	</div>
+
+
+
+	<!--- Start Course Section -->
+	<div id="aboutme" class="offset">
+
+		<div class="col-12 narrow text-center">
+			
+			<!-- <a class="btn btn-secondary btn-md" href="" target="_blank">
+				M</a> -->
+
+<br>
+			<h1 class="title-frontabout">Mitzi Olvera</h1>
+			<h2></h2>
+			<i class="fas fa-code"></i>
+			<p class="lead">
+				Front End Developer. Diseño y Comunicación Visual. Artista digital.
+			</p>
+			<p>Me encanta aprender, investigar, descubrir y enfrentarme a retos.</p>
+			<p>Por medio del desarrollo en tecnología me gustaría poder colaborar en proyectos de startups, arte,
+				cultura, ciencia y
+				salud.</p>
+			<p>Curiosa y apasionada de las nuevas tecnologías. Creativa, amante del arte y la creación audiovisual
+				experimental.</p>
+				
+			<i class="fas fa-file fa-2x"></i>
+			<p><a href="https://drive.google.com/file/d/1cnPyHaXwMX9XRqVym77yMzXzq9uiwG5G/view?usp=sharing"
+					class="links" target="_blank">CV 2019</a></p>
+			<i class="fas fa-laptop fa-2x"></i>
+
+			<p><a href="https://drive.google.com/file/d/1WEjDNvpVyyF4sDvLSQI7H9v3TO5zvK_G/view?usp=sharing"
+					class="links" target="_blank">Portafolio Diseño</a></p>
+
+
+			<!-- <a class="text-dark" href="img/cv/Mitzi_Olvera_CV2019-Tech.pdf" download="Mitzi_Olvera_CV2019-Tech" title="CV">
+				DESCARGA MI CV</a> -->
+
+
+
+		</div>
+
+	</div>
+	<!--- End  Section -->
+
+
+	<!--- PORTAFOLIO PROJECTS Section -->
+	<div id="portfolio" class="offset">
+		<div class="col-12 text-center">
+			<h3 class="heading">Proyectos</h3>
+			<div class="heading-underline"></div>
+		</div>
+
+		<div class="row padding">
+
+			<div class="col-md-6">
+				<div class="card text-center">
+					<img class="card-img-top" src="img/projects/burgerqueen.jpg">
+					<div class="card-body">
+						<h4>Burger Queen</h4>
+
+						<p>Proyecto en colaboración con UX Designer Brenda Vázquez. Desarrollado con la librería React,
+							implementando
+							React Hooks, Context. Tablet App para mejorar la toma de pedidos en un restaurante de comida
+							rápida.</p>
+						<i class="fas fa-laptop-code fa-lg" style="color: rgb(97, 97, 97)"></i>
+						<p><a href="https://burger-queen-1b241.firebaseapp.com/Breakfast" class="links-project"
+								target="_blank">DEMO
+								Tablet App</a></p>
+						<i class="fab fa-github fa-lg" style="color: rgb(97, 97, 97)"></i>
+						<p><a href="https://github.com/MitziYolotzin/CDMX007-fe-burger-queen" class="links-project"
+								target="_blank">Github Burger Queen</a></p>
+						<br>
+						<i class="devicon-react-original fa-lg" style="color: rgb(75, 74, 74)"></i>
+						<i class="devicon-javascript-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
+						<i class="devicon-html5-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
+						<i class="devicon-css3-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
+						<i class="devicon-visualstudio-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
+						<p style="color:rgb(75, 74, 74);">Development Tools</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-md-6">
+				<div class="card text-center">
+					<img class="card-img-top" src="img/projects/mdlinkst.jpg">
+					<div class="card-body">
+						<h4>MD Links</h4>
+						<p>
+							Herramienta y librería creada usando Node.js, que lee y analiza archivos en formato
+							Markdown, para verificar
+							los links que contengan y reportar algunas estadísticas.
+						</p>
+						<i class="fas fa-laptop-code fa-lg" style="color: rgb(97, 97, 97)"></i>
+						<p><a href="https://www.npmjs.com/package/@drosophyllum/mdlinks" class="links-project"
+								target="_blank">DEMO
+								Package NPM</a></p>
+						<i class="fab fa-github fa-lg" style="color: rgb(97, 97, 97)"></i>
+						<p><a href="https://github.com/MitziYolotzin/CDMX007-fe-md-links" class="links-project"
+								target="_blank">Github
+								MD LINKS</a></p>
+						<br>
+						<i class="devicon-javascript-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
+						<i class="devicon-nodejs-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
+						<i class="devicon-visualstudio-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
+						<p style="color:rgb(75, 74, 74);">Development Tools</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card text-center">
+					<img class="card-img-top" src="img/projects/datalovers.jpg">
+					<div class="card-body">
+						<h4>Pokemón Encyclopedia</h4>
+						<p>
+							Nos permite visualizar data de Pokemón, consultar información básica, conocer que
+							pokemones existen y clasificarlos por su tipo. Así como verlos ordenados dependiendo de
+							algunos criterios
+							que el usuario seleccione.
+						</p>
+						<i class="fas fa-laptop-code fa-lg" style="color: rgb(97, 97, 97)"></i>
+						<!-- <a href="https://mitziyolotzin.github.io/cdmx-2019-01-bc-core-data-lovers/src/" target="_blank"><i class="fas fa-laptop fa-lg"></i></a> -->
+						<p><a href="https://mitziyolotzin.github.io/cdmx-2019-01-bc-core-data-lovers/src/"
+								class="links-project" target="_blank">DEMO Pokemón Responsive Web App</a></p>
+						<i class="fab fa-github fa-lg" style="color: rgb(97, 97, 97)"></i>
+						<p><a href="https://github.com/MitziYolotzin/cdmx-2019-01-bc-core-data-lovers"
+								class="links-project" target="_blank">Github Pokemón</a></p>
+						<br>
+						<i class="devicon-javascript-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
+						<i class="devicon-html5-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
+						<i class="devicon-css3-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
+						<i class="devicon-visualstudio-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
+						<p style="color:rgb(75, 74, 74);">Development Tools</p>
+
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-md-6">
+				<div class="card text-center">
+					<img class="card-img-top" src="img/projects/cipher.jpg">
+					<div class="card-body">
+						<h4>Secret Space Mission</h4>
+						<p>Proyecto Cipher. Generador de claves secretas que pueden ser cifradas o descifradas, funciona
+							por medio del
+							método cifrado
+							César.</p>
+						<i class="fas fa-laptop-code fa-lg" style="color: rgb(97, 97, 97)"></i>
+						<p><a href="https://mitziyolotzin.github.io/cdmx-2019-01-bc-core-am-cipher/src/"
+								class="links-project" target="_blank">DEMO CIPHER Web App</a></p>
+						<i class="fab fa-github fa-lg" style="color: rgb(97, 97, 97)"></i>
+						<p><a href="https://github.com/MitziYolotzin/cdmx-2019-01-bc-core-am-cipher"
+								class="links-project" target="_blank">Github CIPHER</a></p>
+						<br>
+
+						<i class="devicon-javascript-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
+						<i class="devicon-html5-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
+						<i class="devicon-css3-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
+						<i class="devicon-visualstudio-plain fa-lg" style="color: rgb(75, 74, 74)"></i>
+						<p style="color:rgb(75, 74, 74);">Development Tools</p>
+
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+	<!--- ARTCODE Section -->
+	<div id="artcode" class="offset">
+
+		<div class="jumbotron container-fluid">
+			<div class="col-12 text-center">
+				<h3 class="heading">Arte y Código</h3>
+				<div class="heading-underline"></div>
+			</div>
+			<div class="row no-padding">
+				<div class="col-sm-3">
+					<div class="portfolio">
+						<!-- <a href="img/portfolio/1.png" target="_blank"> -->
+							
+							<img src="img/artcode/8.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="portfolio">
+						
+							<img src="img/artcode/5.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="portfolio">
+						
+							<img src="img/artcode/4.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="portfolio">
+						
+							<img src="img/artcode/10.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="portfolio">
+						
+							<img src="img/artcode/12.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="portfolio">
+						
+							<img src="img/artcode/1.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="portfolio">
+						
+							<img src="img/artcode/11.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="portfolio">
+						
+							<img src="img/artcode/9.jpg">
+						</a>
+					</div>
+				</div>
+
+				<div class="narrow text-center">
+					<div class="col-12">
+						<p class="lead"></p>
+						
+						<p >Arte generativo, experimentación audiovisual, Live Coding. </p>
+												
+						<!-- <a class="btn btn-secondary btn-md" href="##" target="_blank">Bootstrap</a> -->
+						<br>
+						<a href="https://visuellcodeart.tumblr.com" target="_blank"><i class="fab fa-tumblr fa-lg"
+								style="color: rgb(75, 74, 74)"></i></a>
+						<p><a href="https://visuellcodeart.tumblr.com" class="links" target="_blank">@visuellcodeart</a>
+						</p>
+						<!-- <i class="fab fa-vimeo-v fa-lg"></i> -->
+
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+
+
+	</div>
+
+
+	<!--- SKILLS Section -->
+	<div id="skills" class="offset">
+		<div class="col-12 text-center">
+			<h3 class="heading">Skills</h3>
+			<div class="heading-underline"></div>
+		</div>
+		<div class="row padding">
+			<div class="col-md-6">
+				<div class="card text-center">
+
+					<div class="card-body">
+
+						<div class="jumbotron container-fluid">
+							<h4>TECH SKILLS</h4>
+							<br>
+							<div class="col-16 text-center">
+								<div class="row no-padding">
+									<div class="col-sm-3">
+										<i class="devicon-html5-plain fa-2x"></i>
+										<p>HTML5</p>
+									</div>
+
+									<div class="col-sm-3">
+										<i class="devicon-css3-plain fa-2x"></i>
+										<p>CSS3</p>
+									</div>
+
+									<div class="col-sm-3">
+										<i class="devicon-javascript-plain fa-2x"></i>
+										<p>JavaScript</p>
+									</div>
+
+									<div class="col-sm-3">
+										<i class="devicon-react-original fa-2x"></i>
+										<p>React JS</p>
+									</div>
+
+									<div class="col-sm-3">
+										<i class="devicon-nodejs-plain fa-2x"></i>
+										<p>Node JS</p>
+									</div>
+
+									<div class="col-sm-3">
+										<i class="fas fa-server fa-2x"></i>
+										<p>Firebase</p>
+									</div>
+
+
+									<div class="col-sm-3">
+										<i class="fas fa-database fa-2x"></i>
+										<p>MongoDB</p>
+									</div>
+
+
+									<div class="col-sm-3">
+										<i class="fas fa-user-astronaut fa-2x"></i>
+										<p>Postman</p>
+									</div>
+
+									<div class="col-sm-3">
+										<i class="devicon-git-plain fa-2x"></i>
+										<p>Git</p>
+									</div>
+
+
+									<div class="col-sm-3">
+										<i class="devicon-github-plain fa-2x"></i>
+										<p>Github</p>
+									</div>
+									<div class="col-sm-3">
+										<i class="devicon-visualstudio-plain fa-2x"></i>
+										<p>VS Code</p>
+
+									</div>
+
+									<div class="col-sm-3">
+										<i class="fab fa-slack fa-2x"></i>
+										<p>Slack</p>
+									</div>
+
+									<div class="col-sm-3">
+										<i class="devicon-trello-plain fa-2x"></i>
+										<p>Trello</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+
+				</div>
+			</div>
+
+			<div class="col-md-6">
+					<div class="card text-center">
+	
+						<div class="card-body">
+	
+							<div class="jumbotron container-fluid">
+									<h4>SOFT SKILLS</h4>
+								<br>
+								<div class="col-16 text-center">
+									<div class="row no-padding">
+										<div class="col-sm-3">
+												<i class="fas fa-users fa-2x"></i>
+												<p>Trabajo en equipo</p>
+										</div>
+	
+										<div class="col-sm-3">
+												<i class="far fa-calendar-check fa-2x"></i>
+												<p>Metodología Agile</p>
+										</div>
+	
+										<div class="col-sm-3">
+												<i class="far fa-calendar-check fa-2x"></i>
+												<p>Scrum</p>
+										</div>
+	
+										<div class="col-sm-3">
+												<i class="fas fa-brain fa-2x"></i>
+												<p>Growth Mindset</p>
+										</div>
+	
+										<div class="col-sm-3">
+												<i class="fas fa-user-ninja fa-2x"></i>
+												<p>Autoaprendizaje</p>
+										</div>
+	
+										<div class="col-sm-3">
+												<i class="fas fa-rocket fa-2x"></i>
+												<p>Creatividad</p>
+										</div>
+	
+	
+										<div class="col-sm-3">
+												<i class="fas fa-sitemap fa-2x"></i>
+												<p>Habilidades investigativas</p>
+										</div>
+	
+	
+										
+									</div>
+								</div>
+							</div>
+	
+	
+						</div>
+	
+					</div>
+				</div>
+
+
+
+
+			
+		</div>
+
+	</div>
+
+
+
+
+
+
+	<!--- CONTACT Section -->
+	<div id="contact" class="offset">
+		<footer>
+			<div class="row justify-content-center">
+				<div class="col-md-5 text-center">
+					<!-- <img src="img/title.png"> -->
+					<strong>CONTACTO</strong>
+					<!-- <p><br>mitziulter@gmail.com</p> -->
+					<br>
+					<i class="fas fa-at fa-lg"></i>
+					<p><a href="mailto:mitziulter@gmail.com" class="links" target="_blank">mitziulter@gmail.com</a></p>
+					<i class="fas fa-mobile-alt fa-lg"></i>
+					<p>044 55 2220 0283</p>
+					<a href="https://github.com/MitziYolotzin" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+					<p><a href="https://github.com/MitziYolotzin" class="links" target="_blank">/MitziYolotzin</a></p>
+
+
+					<a href="https://www.linkedin.com/in/mitziolvera" target="_blank"><i
+							class="fab fa-linkedin-in fa-lg"></i></a>
+					<p><a href="https://www.linkedin.com/in/mitziolvera" class="links" target="_blank">/mitziolvera</a>
+					</p>
+
+					<!-- <a href="" target="_blank"><i class="fab fa-instagram"></i></a> -->
+
+					<br>
+					<p>Acerca de: <a href="https://www.laboratoria.la " class="links"
+							target="_blank">www.laboratoria.la</a></p>
+				</div>
+				<hr class="socket">
+				&copy; Mitzi Olvera.
+
+			</div>
+		</footer>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<!--- Script Source Files -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+	<!--- End of Script Source Files -->
 
 </body>
 
 </html>
+
+
+
+
