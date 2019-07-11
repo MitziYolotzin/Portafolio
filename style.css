@@ -40,6 +40,11 @@ padding-right: .7rem;
 color: #1ebba3;
   }
 
+  .navbar-brand {
+    visibility: hidden;
+  }
+
+
 /*---Slider---*/
 .carousel-item{
   height: 100vh;
@@ -167,6 +172,8 @@ hr.socket {
 
 }
 
+
+
 /*--Media Queries--*/
 @media (max-width: 767px) {
   .carousel-caption h1 {
@@ -191,6 +198,10 @@ hr.socket {
     p.lead {
       font-size: 1rem;
     }
+
+    
+
+
 }
 
 
