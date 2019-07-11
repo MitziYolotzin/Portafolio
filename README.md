@@ -1,2 +1,2 @@
 # Portafolio
-Mitzi Olvera Portafolio 
+Mitzi Olvera
