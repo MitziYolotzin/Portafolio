@@ -170,6 +170,18 @@ hr.socket {
 
 }
 
+.hover-contact:hover {
+  color: #20BBA3;
+}
+
+
+.hover-about:hover {
+  color: #20BBA3;
+}
+.hover-web:hover {
+  color: #20BBA3;
+}
+
 
 
 /*--Media Queries--*/
